@@ -9,7 +9,7 @@ class Solution:
         return cnt >= k
 
     def aggressiveCows(self, stalls, k):
-        stalls.sort()
+        stalls.sort() 
         lo, hi = 1, stalls[-1] - stalls[0]
         res = 0
 
