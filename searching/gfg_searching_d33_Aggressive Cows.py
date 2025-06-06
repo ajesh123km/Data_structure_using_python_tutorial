@@ -1,4 +1,5 @@
 class Solution:
+    
     def check(self, stalls, k, dist):
         cnt = 1
         prev = stalls[0]
