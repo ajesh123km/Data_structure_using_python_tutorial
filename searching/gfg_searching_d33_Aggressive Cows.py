@@ -2,7 +2,7 @@ class Solution:
     def check(self, stalls, k, dist):
         cnt = 1
         prev = stalls[0]
-        for i in range(1, len(stalls)):
+        for i in range(1, len(stalls)): 
             if stalls[i] - prev >= dist:
                 prev = stalls[i]
                 cnt += 1
