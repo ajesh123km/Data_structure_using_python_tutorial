@@ -9,6 +9,7 @@ def kthMissing(arr, k):
             count += 1
     
     return curr
+    
 
 if __name__ == "__main__":
     arr = [2, 3, 4, 7, 11]
